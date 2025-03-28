@@ -1,0 +1,13 @@
+train: E:\Paper\Instrument\Yolo_version\YOLO8\dataset\paper\shipv1\images\train
+val: E:\Paper\Instrument\Yolo_version\YOLO8\dataset\paper\shipv1\images\val
+test: E:\Paper\Instrument\Yolo_version\YOLO8\dataset\paper\shipv1\images\test
+
+nc: 1
+names: ['boat']
+
+roboflow:
+  workspace: sharath-velishala-pgpib
+  project: ship_detection-uiank
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sharath-velishala-pgpib/ship_detection-uiank/dataset/1
